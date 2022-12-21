@@ -80,11 +80,12 @@ h3, ul {
 
 .seclast > div {
     background-color: #3882F6;
+    height: 100px;
 }
 
 .bsec {
     display: flex;
-    
+
 }
 
 .quote {
