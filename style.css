@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    gap: 10px;
+    gap: 20px; 
 }
 
 .header > ul > li {
@@ -25,11 +25,68 @@ h3, ul {
    margin-top: 8px;
 }
 
-.secone {
+.secfirst {
+    background-color: #1F2937;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+}
+
+.awe > h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+.awe > button {
+    background-color: #2882F6;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 4px 15px;
+    border-radius: 10px;
+    border-color: #2882F6;
+
+}
+.awe, .img {
+    width: 500px;
+    height: 250px;
+   /* border: solid 5px yellowgreen; */
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: aliceblue;
+}
+
+.seclast {
+    background-color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer {
-    text-align: center;
+
+.seclast > div {
+    background-color: #3882F6;
+}
+
+.bsec {
+    display: flex;
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
