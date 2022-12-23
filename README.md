@@ -1,2 +1,2 @@
 # landing-page
-filled ut initial html boilerplate.
+This landing page assignment was part of The Odin Project Foundations Course.

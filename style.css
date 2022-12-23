@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -19,8 +17,8 @@ body {
     color: whitesmoke;
     display: inline;
     padding-left: 20px;
-     
 }
+
 h3, ul {
    margin-top: 8px;
 }
@@ -41,6 +39,7 @@ h3, ul {
     color: #F9FAF8;
     margin: 0;
 }
+
 .awe > button {
     background-color: #2882F6;
     color: white;
@@ -49,12 +48,11 @@ h3, ul {
     padding: 4px 15px;
     border-radius: 10px;
     border-color: #2882F6;
-
 }
+
 .awe, .img {
     width: 500px;
     height: 250px;
-   /* border: solid 5px yellowgreen; */
 }
 
 .img {
@@ -62,7 +60,7 @@ h3, ul {
     justify-content: center;
     align-items: center;
     background-color: burlywood;
-    color: red;
+    color: white;
 }
 
 .footer {
@@ -70,15 +68,33 @@ h3, ul {
     background-color: #1F2937;
     color: aliceblue;
     font-size: large;
-    
+    padding: 10px 10px;
 }
 
 .seclast {
     height: 230px;
     background-color: #F9FAF8;
+    display: grid;
+    place-items: center;
+}
+
+.seclast > div {
+    background-color: #2882F6;
     display: flex;
-    
-    
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+.pandb > button {
+    color: white;
+    background-color: #2882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-right: 85px;
+    margin-left: 15px;
 }
 
 .quote {
@@ -91,31 +107,38 @@ h3, ul {
     font-weight: lighter;
     display: grid;
     place-items: center;
-    padding: 25px 100px;
+    padding: 25px 150px;
 }
-
 
 .msec {
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 65px;
+    align-items: center;
+}
+
+.elem1 {
+    font-size: 46px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 25px 0 50px 0;
 }
 
 .illus {
-    width: 180px;
-    height: 180px;
+    width: auto;
+    height: 200px;
     border: 4px solid lightseagreen;
     border-radius: 15px;
-     
 }
+
 .illustrations {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
+    gap: 55px;
+    margin: 0 325px;
+}
+.illustrations > div > p {
+    text-align: center;
 }
 
 .text {
@@ -127,6 +150,4 @@ h3, ul {
     font-size: 18px;
 }
 
-.bsec {
-     
-}
+ 
